@@ -1,0 +1,19 @@
+/*basic reset*/
+* {margin: 0; padding: 0;}
+
+/*make the body occupy full height*/
+html, body {
+	height: 100%;
+}
+
+#hex {
+	color: white;
+	font-size: 100px;
+
+	/*Vertical centering*/
+	position: relative; top: 50%;
+	margin-top: -32px;
+
+	/*Horizontal centering*/
+	text-align: center;
+}
